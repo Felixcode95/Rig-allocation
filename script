@@ -181,7 +181,7 @@ var chart = Highcharts.ganttChart('container', {
             animation: false, // Do not animate dependency connectors
             dragDrop: {
                 draggableX: true,
-                draggableY: false,
+                draggableY: true,
                 dragPrecisionX: day,
             },
             dataLabels: {
